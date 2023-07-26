@@ -29,7 +29,7 @@ Users should be able to:
 
 #### Error States
 ![Desktop Error State](./screenshots/desktop-error-state-invalid-dates.png)
-![Desktop Error State](./screenshots/desktop-error-state-empty.png)
+![Desktop Error State](./screenshots/desktop-view-error-state-empty.png)
 
 ### Links
 
