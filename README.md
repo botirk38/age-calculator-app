@@ -22,7 +22,7 @@ Users should be able to:
 ### Screenshot
 #### Desktop View
 
-![Desktop View](./desktop-view.png)
+![Desktop View](./screenshots/desktop-view.png)
 
 #### Success State
 ![Desktop Success State](./screenshots/desktop-success-state.png)
