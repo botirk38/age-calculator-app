@@ -66,4 +66,40 @@
   font-weight: 700;
   color: hsl(0, 100%, 67%); /* Changes color of error message */
   margin-bottom: 1rem;
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+  .input-field {
+    padding-right: 1rem;
+  }
+  .input-field input {
+    max-width: 180px;
+    font-size: 1.5rem;
+  }
+  .input-field label {
+    font-size: 0.9rem;
+    letter-spacing: 4px;
+  }
+  .error-message {
+    font-size: 0.7rem;
+  }
+}
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .input-field {
+    padding-right: 0.5rem;
+  }
+  .input-field input {
+    max-width: 150px;
+    min-height: 60px;
+    font-size: 1rem;
+  }
+  .input-field label {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+  }
+  .error-message {
+    font-size: 0.6rem;
+  }
 }/*# sourceMappingURL=InputField.css.map */

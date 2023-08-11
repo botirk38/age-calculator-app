@@ -53,3 +53,59 @@
 }
 }
 }
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+    .output-field-container {
+      margin-left: 2.5rem;
+      margin-top: -2rem;
+    }
+  
+    .output-field-container .output-field p,
+    .output-field-container .output-field span {
+      font-size: $body-copy-font-size * 2.5;
+    }
+  
+    .output-field-container .output-field span {
+      margin-top: 4rem;
+      letter-spacing: 15px;
+    }
+    
+    .output-field-container.age-present .output-field span {
+      letter-spacing: 0;
+      margin-right: 0.5rem;
+    }
+  }
+  
+  /* Mobile */
+  @media only screen and (max-width: 768px) {
+    .output-field-container {
+      margin-left: 1rem;
+      margin-top: -1rem;
+    }
+  
+    .output-field-container .output-field p,
+    .output-field-container .output-field span {
+      font-size: $body-copy-font-size * 2;
+    }
+  
+    .output-field-container .output-field span {
+      margin-top: 3rem;
+      letter-spacing: 10px;
+    }
+    
+    .output-field-container.age-present .output-field span {
+      letter-spacing: 0;
+      margin-right: 0.3rem;
+    }
+  }
+
+
+  @media only screen and (max-width:374px){
+    .output-field-container .output-field p,
+    .output-field-container .output-field span {
+      font-size: $body-copy-font-size * 1.5;
+    }
+    
+  }
+  
